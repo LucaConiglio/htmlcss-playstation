@@ -1,0 +1,138 @@
+section{
+    padding: 2rem 0;
+}
+.sony-logo{
+    width: 80px;
+}
+.my-nav-bottom{
+    
+    background-color: white;
+
+}
+.my-header{
+    position: sticky;
+    top: -30.1px;
+    z-index: 10;
+    background-color: white;
+}
+.bg-grey{
+    background-color: #bebcbb;
+}
+.logo-plus{
+    width: 70%;
+
+}
+.logo-now{
+    width: 70%;
+}
+.my-hearts{
+    width: 15px;
+}
+.my-sony{
+    width: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header a{
+    font-weight: 600;
+}
+footer a{
+    color: white;
+    
+
+}
+footer ul{
+    list-style: none;
+}
+.my-chevron-down{
+    width: 10px;
+    margin: 8px 0 0 10px;
+}
+.my-lens{
+    width: 20px;
+    margin: 8px 0 0 10px;
+}
+.icona-burger{
+    width: 25px;
+    padding: 0.2rem;
+}
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    
+      
+}
+.bg-dark-blue{
+    background-color: #161c3b;
+}
+.my-returnal{
+    width: 63%;
+    
+}
+h6{
+    font-size: small;
+}
+
+.it-takes{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.playstation-plus{
+    padding: 0;
+}
+.div-playstation-plus{
+    padding: 2rem 0;
+}
+
+
+@media screen and (min-width: 576px){
+    
+    .jumbotron{
+        background-image: url(../img/jumbo-bg.png);
+        background-size: cover;
+        padding-top: 200px;
+        
+
+    }
+    .my-returnal{
+        width: 60%;
+        
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    .jumbotron{
+        background-image: url(../img/jumbo-bg.png);
+        background-size: cover;
+        padding-top: 230px;
+    }
+    .my-returnal{
+        width: 58%;
+        
+    }
+    .div-playstation-plus{
+        padding:0;
+    }
+}
+
+
+
+@media screen and (min-width: 992px){
+    
+    .jumbotron{
+        background-image: url(../img/jumbo-bg.png);
+       
+          padding-top: 250px;
+          
+    }
+    
+}
