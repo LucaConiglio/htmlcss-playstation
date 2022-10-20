@@ -32,14 +32,16 @@ section{
     width: 90px;
 }
 .my-card-hover:hover {
-    margin: -2px;
+    margin: -3px;
     border: 2px solid rgb(0, 0, 255);
     scale: 1.1;
+    padding: 1px;
 }
 .my-card-hover-r:hover {
-    margin: -2px;
+    margin: -3px;
     border: 2px solid rgb(251, 0, 255);
     scale: 1.1;
+    padding: 1px;
 }
 .border-bottom-hover-blu:hover{
     transition: 0.1s;
