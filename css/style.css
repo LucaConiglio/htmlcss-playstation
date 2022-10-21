@@ -120,6 +120,18 @@ section{
     transition: 0.3s;
 }
 
+img.display-nascosto:focus + .display-burger{
+    display: block !important;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+
+}
+.display-burger{
+    display: none !important;
+    
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -144,9 +156,10 @@ footer ul{
     margin: 8px 0 0 10px;
 }
 .icona-burger{
-    width: 25px;
-    padding: 0.2rem;
+    width: 35px;
+    padding: 0.4rem;
 }
+
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-position: top;
