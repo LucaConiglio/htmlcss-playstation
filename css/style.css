@@ -30,7 +30,16 @@ section{
 }
 .my-sony{
     width: 90px;
+} .invisible-img{
+    display: none;
 }
+a.d-flex:hover .visible-img{
+    display: none;
+}
+a.d-flex:hover .invisible-img{
+    display: block;
+}
+
 
 .my-card-hover:hover {
     animation-name: my-card;
